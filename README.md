@@ -2,6 +2,10 @@
 
 一个转markdown的模块
 
+```c#
+dotnet add package  Jc.ToMD
+```
+
 #### 数据库转MarkDown
 
 1。Mysql to Md    <font color=#0099ff>已完成</font>
