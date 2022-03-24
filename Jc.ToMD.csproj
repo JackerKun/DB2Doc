@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>10</LangVersion>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.1</PackageVersion>
+        <Title>Jc.ToMD</Title>
+        <Authors>JackerKun</Authors>
+        <Description>数据库转markdown模块</Description>
+        <Copyright>JackerKun</Copyright>
+        <PackageProjectUrl>http://jackerkun.com</PackageProjectUrl>
+        <PackageLicenseUrl>http://jackerkun.com</PackageLicenseUrl>
+        <PackageTags>markdown,md,dbtomd,jackerkun</PackageTags>
+    </PropertyGroup>
+
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+      <DocumentationFile>bin\Debug\netstandard2.1\Jc.ToMD.xml</DocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Jc.Db.Mysql" Version="1.0.1" />
+    </ItemGroup>
+
+</Project>
