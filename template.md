@@ -50,5 +50,5 @@
 | 字段名                                  | 数据类型       | 默认值 | 允许空   | 是否主键 | 注释  |
 |:-------------------------------------|------------|-----|-------|------|-----|
 | F_MENU_ID                            | bigint(50) |     | NO    | YES | 菜单ID |
-| F_MENU_IDddddddssssssssssssssssssss  | bigint(50) |     | NO    | YES | 菜单ID |
+| F_MENU_ID | bigint(50) |     | NO    | YES | 菜单ID |
  
